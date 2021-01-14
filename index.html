@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/86804ea942.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/burger.js"></script>
+    <script defer src="./js/weatherScript.js"></script>
+    <script defer src="./js/darkMode.js"></script>
+    <link rel="icon" href="./img/cloudy.png" />
+    <title>Samcast - The Weather App</title>
+  </head>
+
+  <body id="body-tag" class="body-dark-mode-active">
+    <nav class="navbar h-nav">
+      <div class="brand-name">
+        <a href="/"> Samcast</a>
+      </div>
+      <div class="dark-mode-container vis-class">
+        <span>Dark Mode</span>
+        <div class="dark-mode-btn dark-mode-active">
+          <div class="slider slider-active"></div>
+        </div>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="credits vis-class">
+        <h2>Made with <i class="fas fa-heart"></i> By Arsh Khatwani</h2>
+        <!-- Attributions -->
+        <div class="attributions">
+          <a
+            href="https://www.flaticon.com/authors/those-icons"
+            title="Those Icons"
+          >
+            Those Icons
+          </a>
+          from
+          <a href="https://www.flaticon.com/" title="Flaticon">
+            www.flaticon.com</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="outer-container">
+      <div class="search-container">
+        <form action="" class="search-form dark-mode-form">
+          <input type="text" placeholder="Enter location" id="city-input" />
+          <button class="search-btn" type="submit">
+            <i class="fas fa-search"></i>
+            Search
+          </button>
+        </form>
+        <div>
+          <button class="search-btn clear-btn-dark" id="clear-btn">
+            Clear all
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
